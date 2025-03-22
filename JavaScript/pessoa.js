@@ -1,7 +1,7 @@
 "use strict";
 var empresa;
 (function (empresa) {
-    class Pessoa {
+    class pessoa {
         get nome() {
             return this._nome;
         }
@@ -18,5 +18,5 @@ var empresa;
             return anoAtual - this._anoNasc;
         }
     }
-    empresa.Pessoa = Pessoa;
+    empresa.pessoa = pessoa;
 })(empresa || (empresa = {}));
